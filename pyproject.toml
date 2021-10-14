@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hue-noko-notifier"
+version = "0.1.0"
+description = "Use Philips Hue to notify you of missing or incomplete Noko timesheets"
+authors = ["Lewis England <lewis.england@armakuni.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
